@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace png2b64
 {
@@ -28,7 +26,6 @@ namespace png2b64
                 Console.Out.WriteLine(b64);
             }
         }
-        
 
         static public string ToB64(string path)
         {
